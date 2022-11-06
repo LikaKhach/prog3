@@ -6,7 +6,7 @@ var io = require('socket.io')(server);
 
 
 
-app.use(express.static("./prog3"));
+app.use(express.static("./game"));
 
 app.get('/', function (req, res) {
    res.redirect('index.html');
